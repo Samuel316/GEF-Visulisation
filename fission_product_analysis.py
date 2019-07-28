@@ -11,10 +11,10 @@ import pandas as pd
 # Sets common directory between file paths
 if sys.platform == 'win32':
     directory = \
-        'C:/Users/Samuel/Dropbox/Physics_Hull/Fourth_Year/Project/Code'
+        'C:/Users/Samuel/Dropbox/Physics/Fourth_Year/Project/Code'
 elif sys.platform == 'linux':
     directory = \
-        '/home/samuel/Dropbox/Physics_Hull/Fourth_Year/Project/Code'
+        '/home/samuel/Dropbox/Physics/Fourth_Year/Project/Code'
 else:
     sys.exit('No Directory present for OS')
 
